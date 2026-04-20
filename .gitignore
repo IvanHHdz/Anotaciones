@@ -1,2 +1,6 @@
 
+# archivos a ignorar relacionados con Julia
 Física/Electromagnetismo/rules_statistics.txt
+
+# carpetas a ignorar relacionados con Rust
+**/target

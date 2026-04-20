@@ -9,7 +9,8 @@ Estas anotaciones se realizaron con el propósito de ayudar a cualquiera que ten
 Para no perderse, he organizado un índice:
 
 - Programación
-  - [C](./C/README.md)
-  - [Julia](./Julia/README.md)
-- [Física](./Física/)
-  - [Electromagnetismo](./Física/Electromagnetismo/README.md)
+  - [C](/C/README.md)
+  - [Julia](/Julia/README.md)
+  - [Rust](/Rust/README.md)
+- [Física](/Física/README.md)
+  - [Electromagnetismo](/Física/Electromagnetismo/README.md)

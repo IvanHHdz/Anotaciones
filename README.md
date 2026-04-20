@@ -10,3 +10,4 @@ Para no perderse, he organizado un índice:
 
 - Programación
   - [C](./C/README.md): Directorio con apuntes relacionados al lenguaje de programación C.
+  - [Julia](./Julia/README.md)

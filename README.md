@@ -9,5 +9,7 @@ Estas anotaciones se realizaron con el propósito de ayudar a cualquiera que ten
 Para no perderse, he organizado un índice:
 
 - Programación
-  - [C](./C/README.md): Directorio con apuntes relacionados al lenguaje de programación C.
+  - [C](./C/README.md)
   - [Julia](./Julia/README.md)
+- [Física](./Física/)
+  - [Electromagnetismo](./Física/Electromagnetismo/README.md)

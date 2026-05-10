@@ -7,9 +7,13 @@ void show_bytes(byte_pointer pointer, size_t len);
 
 int main(void) {
 
-  double value_1 = 3.1415926;
+  int value_1 = 23;
 
-  show_bytes((byte_pointer)&value_1, sizeof(double));
+  show_bytes((byte_pointer)&value_1, sizeof(int));
+
+  double value_2 = 1.618033989;
+
+  show_bytes((byte_pointer)&value_2, sizeof(double));
 
   return 0;
 }

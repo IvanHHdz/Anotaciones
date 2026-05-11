@@ -2,6 +2,7 @@ pub mod bitwise;
 pub mod information_representation;
 
 use bitwise::operations::{bitwise_and, bitwise_not, bitwise_or, bitwise_xor};
+use bitwise::swap::{printarr, reverse_array};
 use information_representation::show_bytes;
 
 fn main() {
@@ -34,4 +35,19 @@ fn show_bitwise_operations() {
     bitwise_or(a, b);
 
     bitwise_xor(a, b);
+}
+
+#[allow(dead_code)]
+fn show_bitwise_swap() {
+    let mut a = [1, 2, 3, 4, 5, 6, 7];
+
+    unsafe {
+        printarr(a.as_ptr(), 7);
+    }
+
+    reverse_array(&mut a);
+
+    unsafe {
+        printarr(a.as_ptr(), 7);
+    }
 }
